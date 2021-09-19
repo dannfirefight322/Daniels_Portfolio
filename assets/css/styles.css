@@ -1,0 +1,21 @@
+:root{
+    --dark: #000000;
+    --darkPurple: #150050;
+    --purple: #3F0071;
+    --lightPurple: #610094;
+}
+*{
+    background-color: var(--lightPurple);
+}
+.jumbotron-fluid{
+    background-color: var(--dark);
+}
+.img-fluid{
+    border-radius: 5%;
+    padding-bottom: 7px;
+}
+.Daniel, .aboutMe{
+    text-align: center;
+    color: var(--dark);
+    font-weight: bolder;
+}
