@@ -3,10 +3,12 @@
     --darkPurple: #150050;
     --purple: #3F0071;
     --lightPurple: #610094;
+    --mainText: 'Noto Serif', serif;
 }
-*{
+body{
     background-color: var(--lightPurple);
 }
+
 .jumbotron-fluid{
     background-color: var(--dark);
 }
@@ -17,5 +19,11 @@
 .Daniel, .aboutMe{
     text-align: center;
     color: var(--dark);
+    background-color: var(--lightPurple);
     font-weight: bolder;
+    font-family: var(--mainText);
+}
+.aboutMe{
+    border-radius: 5%;
+    padding: 7px;
 }
