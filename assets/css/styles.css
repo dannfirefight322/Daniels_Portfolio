@@ -3,10 +3,24 @@
     --darkPurple: #150050;
     --purple: #3F0071;
     --lightPurple: #610094;
+    --white: #FFFFFF;
     --mainText: 'Noto Serif', serif;
 }
 body{
     background-color: var(--lightPurple);
+}
+.navbar{
+    background-color: var(--lightPurple);
+    color: var(--white);
+}
+.nav-link{
+    color: var(--white);
+}
+.nav-link:hover{
+    color: var(--dark);
+}
+.navbar-toggler-icon{
+
 }
 .jumbotron-fluid{
     background-color: var(--dark);
@@ -19,7 +33,7 @@ body{
 }
 .Daniel, .aboutMe{
     text-align: center;
-    color: #FFFFFF;
+    color: var(--white);
     background-color: var(--purple);
 }
 .aboutMe{
