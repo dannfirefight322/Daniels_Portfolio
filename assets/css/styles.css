@@ -19,8 +19,15 @@ body{
 .nav-link:hover{
     color: var(--dark);
 }
-.navbar-toggler-icon{
-
+.dropdown-menu{
+    background-color: var(--dark);
+}
+.dropdown-item{
+    color: var(--white);
+}
+.dropdown-item:hover{
+    background-color: var(--dark);
+    color: var(--lightPurple)
 }
 .jumbotron-fluid{
     background-color: var(--dark);
