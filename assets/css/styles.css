@@ -5,6 +5,7 @@
     --lightPurple: #610094;
     --white: #FFFFFF;
     --mainText: 'Noto Serif', serif;
+    --secondText: 'Cormorant Garamond', serif;
 }
 body{
     background-color: var(--lightPurple);
@@ -12,9 +13,12 @@ body{
 .navbar{
     background-color: var(--lightPurple);
     color: var(--white);
+    font-family: var(--secondText);
+    font-weight: bolder;
 }
 .nav-link{
     color: var(--white);
+    font-family: var(--secondText);
 }
 .nav-link:hover{
     color: var(--dark);
@@ -42,6 +46,8 @@ body{
     text-align: center;
     color: var(--white);
     background-color: var(--purple);
+    font-family: var(--secondText);
+    font-size: 20px;
 }
 .aboutMe{
     border-radius: 5%;
@@ -50,6 +56,13 @@ body{
 .Daniel{
     border-radius: 15%;
 }
+.card{
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: var(--secondText);
+    font-size: 18px;
+}
+
 footer{
     text-align: center;
     background-color: var(--dark);
