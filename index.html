@@ -10,6 +10,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -19,15 +20,15 @@
 </head>
 <body>
         <!--Nav bar with my social links-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <p class="navbar-brand" href="#">Socials</p>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-dark" >
+            <p class="navbar-brand">Socials</p>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+              <ul class="navbar-nav ml-auto"> 
+                <li class="nav-item">
                   <a class="nav-link" href="https://github.com/dannfirefight322">Github <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -46,6 +47,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <p class="dropdown-item">amery.bur410@gmail.com</p>
                       <p class="dropdown-item">210-823-3196</p>
+                      <a class="dropdown-item" href=./Daniel_Burford.pdf><p class="dropdown-item">Resume</p></a>
                     </div>
                   </li>
                 </ul>
@@ -58,7 +60,7 @@
         <!-- Every grid layout we create starts with an HTML element receiving a class of row -->
         <!-- align-items-end change the alignment of flex items to end -->
         <div class="row align-items-end">
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6" align="center">
             <img class='img-fluid' src="./assets/images/Me.jpeg" alt="Daniel Burford" />
           </div>
           <!-- Uses a combination of col-* values to make full-size on small devices and half-size on medium or larger devices -->
@@ -75,8 +77,8 @@
     <!--This is a Projects card-->
     <div class="container-fluid">
       <div class="row">
-      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 mb-3">
-      <div class="card" style="width: 18rem;">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 mb-3" align="center">
+      <div class="card" style="width: 22rem;">
         <img src="./assets/images/emswift.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">EMSwift</h5>
@@ -86,19 +88,19 @@
         </div>
       </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 mb-3">
-      <div class="card" style="width: 18rem;">
+      <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 mb-3" align="center">
+      <div class="card" style="width: 22rem;">
         <img src="./assets/images/DanielsPhotography.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Daniels Photography</h5>
+        <h5 class="card-title">Daniel's Photography</h5>
         <p class="card-text">Photography is one of my many passions, I saw fit to build a mobile website as a portfolio to showcase some of my favorite photos that I've taken from various places around the U.S. </p>
         <a href="https://danielsphotography.me/" class="btn btn-primary">Deployed</a>
         <a href="https://github.com/dannfirefight322/Mobile" class="btn btn-primary">Repository</a>
       </div>
     </div>
   </div>
-  <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 mb-3">
-    <div class="card" style="width: 18rem;">
+  <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 mb-3" align="center">
+    <div class="card" style="width: 22rem;">
       <img src="./assets/images/dayPlanner.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Day Planner</h5>
@@ -108,8 +110,8 @@
     </div>
   </div>
 </div>
-<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 mb-3">
-  <div class="card" style="width: 18rem;">
+<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-3 mb-3" align="center">
+  <div class="card" style="width: 22rem;">
     <img src="./assets/images/passwordGenerator.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Password Generator</h5>
