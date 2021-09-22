@@ -12,4 +12,4 @@
 ![main page](./assets/images/main.png)
 ![main projects](./assets/images/mainOne.png)
 ![mobile](./assets/images/mobile.png)
-![mobile content](./assets/images/mobileone.png) 
+![mobile content](./assets/images/mobileOne.png) 
