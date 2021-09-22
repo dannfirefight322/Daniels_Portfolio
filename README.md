@@ -7,6 +7,7 @@
 ### I also used godaddy to obtain a domain consisting of my name to use instead of the default github domain.
 ### I included a recent picture of me and a sort bio consisting on my experiences.
 ### Also included are several projects or assigments Ive completed throughtout the course to help practice my skills.
+### My portfolio is also mobile responsive so it shows up on a phone with no issues.
 ### I also linked all my relevent social media accounts and added my email phone number and resume.
 ## These are screenshots of the final product of my portfolio.
 ![main page](./assets/images/main.png)
