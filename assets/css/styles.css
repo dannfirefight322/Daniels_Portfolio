@@ -1,0 +1,72 @@
+:root{
+    --dark: #000000;
+    --darkPurple: #150050;
+    --purple: #3F0071;
+    --lightPurple: #610094;
+    --white: #FFFFFF;
+    --mainText: 'Noto Serif', serif;
+    --secondText: 'Cormorant Garamond', serif;
+}
+body{
+    background-color: var(--lightPurple);
+}
+.navbar{
+    background-color: var(--lightPurple);
+    color: var(--white);
+    font-family: var(--secondText);
+    font-weight: bolder;
+}
+.nav-link{
+    color: var(--white);
+    font-family: var(--secondText);
+}
+.nav-link:hover{
+    color: var(--dark);
+}
+.dropdown-menu{
+    background-color: var(--dark);
+}
+.dropdown-item{
+    color: var(--white);
+}
+.dropdown-item:hover{
+    background-color: var(--dark);
+    color: var(--lightPurple)
+}
+.jumbotron-fluid{
+    background-color: var(--dark);
+}
+.img-fluid{
+    border-radius: 100%;
+    padding-bottom: 7px;
+    height: 400px;
+  
+}
+.Daniel, .aboutMe{
+    text-align: center;
+    color: var(--white);
+    background-color: var(--purple);
+    font-family: var(--secondText);
+    font-size: 20px;
+}
+.aboutMe{
+    border-radius: 5%;
+    padding: 7px;
+}
+.Daniel{
+    border-radius: 15%;
+}
+.card{
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: var(--secondText);
+    font-size: 16px;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--lightPurple);
+    font-size: 18px;
+    font-family: var(--mainText);
+}
