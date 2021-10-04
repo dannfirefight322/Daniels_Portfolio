@@ -62,7 +62,13 @@ body{
     font-family: var(--secondText);
     font-size: 16px;
 }
-
+h3{
+    font-size: 30px;
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--lightPurple);
+    font-family: var(--mainText);
+}
 footer{
     text-align: center;
     background-color: var(--dark);
