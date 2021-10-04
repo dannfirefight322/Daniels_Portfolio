@@ -10,6 +10,9 @@
 body{
     background-color: var(--lightPurple);
 }
+.navbar-brand{
+    font-size: 40px;
+}
 .navbar{
     background-color: var(--lightPurple);
     color: var(--white);
