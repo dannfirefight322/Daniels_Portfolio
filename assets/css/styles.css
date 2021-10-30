@@ -79,3 +79,8 @@ footer{
     font-size: 18px;
     font-family: var(--mainText);
 }
+form{
+    text-align: center;
+    font-family: var(--secondText);
+    color: white;
+}
